@@ -1,53 +1,44 @@
-# Filipino for Real Life
+# Filipino for George V1.1
 
-A simple everyday Filipino speaking-card app for beginners.
+Everyday Filipino speaking cards for George.
 
-This app is designed for real-life Filipino conversations: natural, respectful, informal, and practical. It avoids overly formal textbook Tagalog, rude slang, and trendy expressions.
+## V1.1 Updates
 
-## What is included
+- Blue headers and blue app theme
+- Greek-style category drawer layout
+- Priority-only learning system
+- Corrected restaurant bill phrase:
+  - Main: Bill out, please.
+  - Polite: Bill out po, please.
+- Service phrase rule tightened:
+  - Use what Filipinos actually say in that situation.
+  - Do not force direct Filipino translations when natural Taglish is better.
+
+## Files to upload to GitHub
+
+- index.html
+- manifest.json
+- service-worker.js
+- icon.svg
+- README.md
+
+## Features
 
 - 400 everyday Filipino cards
-- 10 learning categories
-- Mastered, Needs Review, Unmarked, and Priority tracking
-- Priority Mastered and Priority Needs Review filters
-- Search
-- Progress tracker
-- Backup and restore
-- Translation and saved phrase helper
+- Category sections
+- Revealable cards
+- Priority Needs Review
+- Priority Mastered
+- Clear / Unmarked
+- Priority tracker by category
+- Google Translate helper
+- Saved Filipino phrase vault
+- Auto-fill English from translator into saved phrase log
+- Progress backup and restore
+- PWA support
 
-## Categories
+## GitHub Pages
 
-1. Survival Filipino
-2. Greetings & Small Talk
-3. Food & Eating
-4. Going Around
-5. Shopping & Money
-6. Home & Daily Life
-7. You & Me
-8. Family & Respect
-9. Feelings & Repair
-10. Listening Mode
+Upload all files to the root of the repository, then enable:
 
-## How to use
-
-Open `index.html` in any browser.
-
-For GitHub Pages:
-
-1. Create a new GitHub repository.
-2. Upload `index.html` and `README.md`.
-3. Go to **Settings**.
-4. Open **Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and `/root`.
-7. Save.
-
-GitHub will generate a live website link after deployment.
-
-## Notes
-
-The translation helper is intentionally safe. It checks the built-in 400-card phrase bank first. If a phrase is not found, it marks it as needing manual Filipino phrasing instead of inventing an unreliable translation.
-
-## Version
-
-V1 — Everyday Filipino Speaking Cards
+Settings → Pages → Deploy from branch → main → /root

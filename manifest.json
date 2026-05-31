@@ -1,0 +1,19 @@
+{
+  "name": "Filipino for George V1.1 Priority Cards",
+  "short_name": "Filipino George",
+  "description": "Everyday Filipino speaking app for George with blue headers, priority-only tracker, and saved phrase log.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f9ff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
